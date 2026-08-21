@@ -1,0 +1,18 @@
+baseURL = "https://huozuilv.github.io/boke/"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "ananke"
+enableGitInfo = true
+
+[params]
+  author = "huozuilv"
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
